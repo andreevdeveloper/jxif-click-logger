@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# OS/IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Docker (если вдруг появятся локальные файлы)
+*.sqlite

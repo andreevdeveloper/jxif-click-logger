@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>клик-логгер 2000</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header>
+    <h1>клик-логгер 2000</h1>
+    <div class="hint">админка, которая делает вид что серьёзная</div>
+  </header>
+
+  <main class="grid">
+    <section class="card">
+      <h2>Создать ссылку</h2>
+      <label>target_url</label>
+      <input id="targetUrl" placeholder="https://example.com" />
+      <label>code (необязательно)</label>
+      <input id="code" placeholder="myCode42" />
+      <button id="createBtn">Сгенерить</button>
+
+      <pre id="createOut" class="mono"></pre>
+    </section>
+
+    <section class="card">
+      <h2>Ссылки</h2>
+      <button id="reloadLinks">Обновить</button>
+      <div id="links" class="list mono"></div>
+    </section>
+
+    <section class="card wide">
+      <h2>Клики</h2>
+      <div class="row">
+        <input id="filterCode" placeholder="фильтр по code (опционально)" />
+        <button id="reloadClicks">Обновить</button>
+      </div>
+      <div id="clicks" class="table mono"></div>
+    </section>
+  </main>
+
+  <footer class="mono">
+    admin api: <span id="adminApi"></span>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
