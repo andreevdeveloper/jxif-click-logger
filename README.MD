@@ -1,6 +1,6 @@
-# Click Logger (FastAPI + Postgres + JS)
+# Jxif Fast Click Logger (fastapi, postgre, js)
 
-Быстровозводимый логер.
+Быстровозводимый логер в контейнере. 
 
 ## Сервисы
 - `tracker-service` (порт 8000): публичная точка `/t/{code}` (лог + редирект)
