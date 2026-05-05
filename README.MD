@@ -1,4 +1,4 @@
-# Jxif Fast Click Logger (fastapi, postgre, js)
+# jxif fast click logger (fastapi, postgre, js)
 
 Быстровозводимый логер в контейнере. 
 
